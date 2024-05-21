@@ -56,4 +56,4 @@ npm run all
 It allows users learn more about their expertise, read reviews of others, post and delete their own reviews. The 'delete' option is available until the page is refreshed.
 
 ## Usage scenarios and flow diagram
-Click for [page flow diagram and scenarios](diagram-scenarios.md).
+Click for [page flow diagram and scenarios](diagram-scenarios.md)
