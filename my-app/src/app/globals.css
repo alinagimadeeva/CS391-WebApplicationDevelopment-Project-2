@@ -1,0 +1,351 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #181818 !important;
+  color: #fff !important;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  border-bottom: 2px solid #2c2c2c;
+  padding: 20px 50px;
+}
+
+header svg {
+  font-size: 50px;
+  color: #598191;
+  margin-right: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #c44674;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  border-bottom: 2px solid #2c2c2c;
+  padding: 20px 50px;
+}
+
+footer p {
+  margin: 10px;
+  display: inline-block;
+}
+
+.company-name {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+a {
+  color: #598191;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.container {
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.image-home {
+  width: 550px;
+  border-radius: 15px;
+  float: right;
+}
+
+.row .special-text {
+  color: #c44674;
+}
+
+.col-md-6 p {
+  font-weight: 650;
+}
+
+.col-md-6 h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-fliud {
+  background-color: rgba(164, 164, 164, 0.1);
+}
+
+.text-about {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+}
+
+.reviews-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.review {
+  width: 500px;
+  margin-top: 35px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #598191;
+  color: #fff; 
+}
+
+.review-action {
+  width: 500px;
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f0f0; 
+  color: #598191;
+  font-weight: bold;
+}
+
+.review h2, .review-action p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.review a, .review-action a {
+  color: #283c4c; 
+}
+
+.back-button {
+  background-color: #598191;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.back-button:hover {
+  background-color: #29475c;
+}
+
+.review-form {
+  background-color: #598191;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-top: 55px;
+  box-sizing: border-box;
+}
+
+.review-form h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0; 
+  margin-bottom: 20px; 
+}
+
+.review-form input,
+.review-form textarea,
+.review-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.review-form button {
+  background-color: #22667a;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 6px;
+  margin-bottom: -3px;
+}
+
+.review-form button:hover {
+  background-color: #205870;
+}
+
+.teachers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .teachers-container {
+    max-width: 95%; 
+  }
+}
+
+
+.teachers-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.teachers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.teacher {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e3f2fd;
+  color: #000;
+  text-align: center;
+  align-items: center;
+}
+
+.teacher-img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.teacher p {
+  margin-bottom: 20px;
+}
+
+.custom-link {
+  color: #5f93a8;
+  text-decoration: none;
+}
+
+.teacher-img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.teacher-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 950px;
+}
+
+.teacher-detail-container h3 {
+  margin-top: 30px;
+  margin-bottom: -1px;
+  color:#c44674;
+}
+
+.reviews-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.review-item button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review-item button:hover {
+  background-color: #ff1a1a;
+}
+
+.reviewer-name {
+  color: #5f93a8; 
+}
+
+.teacher-form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teacher-form textarea,
+.teacher-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.teacher-form button {
+  padding: 10px 20px;
+  background-color: #406e8e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.teacher-form button:hover {
+  background-color: #29475c;
+}

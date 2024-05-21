@@ -1,0 +1,118 @@
+{
+    "reviews": [
+      {
+        "id": "1",
+        "name": "Nina Simone",
+        "email": "nina@gmail.com",
+        "title": "Anytime and anywhere",
+        "body": "This online English school offers remarkable flexibility with courses accessible 24/7. Ideal for busy schedules.",
+        "date": "15.04.2023"
+      },
+      {
+        "id": "2",
+        "name": "Ann Peebles",
+        "email": "ann@gmail.com",
+        "title": "Engaging Learning Experience",
+        "body": "The interactive sessions and experienced instructors make learning English enjoyable and effective",
+        "date": "03.07.2023"
+      },
+      {
+        "id": "3",
+        "name": "Nick Cave",
+        "email": "nick@gmail.com",
+        "title": "Tailored to Your Needs",
+        "body": "Customizable lessons that adapt to your level and pace. Great for improving specific skills",
+        "date": "22.01.2024"
+      },
+      {
+        "id": "4",
+        "name": "Lee Hazlewood",
+        "email": "lee@gmail.com",
+        "title": "Comprehensive and Convenient",
+        "body": "From grammar to conversation, every aspect is covered. The convenience of learning from home is unmatched",
+        "date": "18.05.2024"
+      }
+    ],
+    
+    "teachers": [
+      {
+        "id": "1",
+        "name": "Aurora Sterling",
+        "job": "British teacher",
+        "img": "/images/teacher1.jpg",
+        "text": "My teaching journey began at Oxford University, where I learned to fuse tradition with innovation in English education. Let's embark on an exciting learning adventure together!"
+      },
+      {
+        "id": "2",
+        "name": "Asher Fox",
+        "job": "American teacher",
+        "img": "/images/teacher2.jpg",
+        "text": "Trained at Yale University, I developed a passion for teaching English that is both enriching and rewarding. Join me for an interactive and immersive learning experience!"
+      },
+      {
+        "id": "3",
+        "name": "Emberlyn Frost",
+        "job": "British teacher",
+        "img": "/images/teacher3.jpg",
+        "text": "At Columbia University, I learned the art of teaching English with passion. My approach blends methods with modern strategies. Let's embark on a journey of learning and growth together!"
+      },
+      {
+        "id": "4",
+        "name": "Luna Whitaker",
+        "job": "American teacher",
+        "img": "/images/teacher4.jpg",
+        "text": "From my studies at Cambridge University, I bring a dynamic approach to teaching English, blending time-honored techniques with modern strategies. Join me as we explore the wonders of language!"
+      }
+    ],
+
+    "teachers_reviews": [
+      {
+        "teacherId": "1",
+        "id": "1",
+        "name": "John Doe",
+        "reviewText": "Aurora is an amazing teacher who makes learning fun and engaging."
+      },
+      {
+        "teacherId": "1",
+        "id": "2",
+        "name": "Jane Smith",
+        "reviewText": "I improved my English skills significantly thanks to Aurora's teaching methods."
+      },
+      {
+        "teacherId": "2",
+        "id": "3",
+        "name": "Emily Johnson",
+        "reviewText": "Asher is very knowledgeable and patient. Highly recommend!"
+      },
+      {
+        "teacherId": "2",
+        "id": "4",
+        "name": "Michael Brown",
+        "reviewText": "Great teacher! The lessons are very well structured."
+      },
+      {
+        "teacherId": "3",
+        "id": "5",
+        "name": "Chris Green",
+        "reviewText": "Emberlyn's classes are interactive and informative."
+      },
+      {
+        "teacherId": "3",
+        "id": "6",
+        "name": "Sophia White",
+        "reviewText": "I learned a lot from Emberlyn. Her approach is very effective."
+      },
+      {
+        "teacherId": "4",
+        "id": "7",
+        "name": "Olivia Black",
+        "reviewText": "Luna is a fantastic teacher. She explains everything clearly."
+      },
+      {
+        "teacherId": "4",
+        "id": "8",
+        "name": "Liam Grey",
+        "reviewText": "I really enjoy Luna's classes. They are both fun and educational."
+      }
+    ]
+  }
